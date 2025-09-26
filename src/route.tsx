@@ -17,7 +17,7 @@ function AppRoutes() {
             <Route element={<LayoutAdmin />}>
                 <Route path="/usuario" element={<Usuario />} />
                 <Route path="/carrinho" element={<Carrinho />} />
-                <Route path="/" element={<Home />} />
+                <Route path="/home" element={<Home />} />
             </Route>
         </Routes>
     );
